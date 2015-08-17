@@ -1,7 +1,7 @@
 # Clear R workspace
 rm(list = ls() ) 
 # Set the working directory 
-# setwd("C:/Users/Lawrence/Documents/R")
+setwd("C:/Users/Lawrence/Documents/R")
 library(igraph)
 # Now, let us generate the edge list
 # e1 = c(rep(1,5),rep(2,19),rep(3,19),rep(4,19),rep(5,19),rep(6,19),seq(7,101))
