@@ -1,7 +1,7 @@
 # Clear R workspace
 rm(list = ls() ) 
 # Set the working directory 
-setwd("C:/Users/Lawrence/Documents/R")
+setwd("C:/Data/R")
 library(igraph)
 # Now, let us generate the edge list
 # e1 = c(rep(1,5),rep(2,19),rep(3,19),rep(4,19),rep(5,19),rep(6,19),seq(7,101))
@@ -86,7 +86,7 @@ layout <- layout.random(g)
 k = 1
 #####################################################################
 png(
-  "C:/Users/Lawrence/Documents/R/Sears_anim/example%03d.png", width = 2000,height =
+  "C:/Data/R/Anim/example%03d.png", width = 2000,height =
     1400
 )
 #coords <- layout.auto(g)
